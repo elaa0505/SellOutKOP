@@ -606,6 +606,7 @@ li.w3pages .dropdown-menu > li > a:hover{
 }
 .modal-body {
     padding:0em 2em 2em;
+    background: #0c0c0ccc;
 }
 .modal-dialog {
     margin: 6em auto 0;
@@ -614,6 +615,7 @@ li.w3pages .dropdown-menu > li > a:hover{
     border: none;
     min-height: 2.5em;
     padding:0em 1em 0;
+    background: #0c0c0ccc;
 }
 .modal button.close {
     color: #337ab7;
@@ -695,14 +697,14 @@ li.w3pages .dropdown-menu > li > a:hover{
 }
 .simpleCart_shelfItem button.w3ls-cart {
     font-size: 14px;
-    color: #000;
+    color: #337ab7;
     margin: 0;
     text-decoration: none;
     text-transform: capitalize;
     padding: .5em 1.5em;
-    border: 1px solid #c1c1c1;
+    border: 1px solid #167ac6;
     border-radius: 5px;
-    background: transparent;
+    background: #000000bf;
     outline: none;
 	-webkit-transition:.5s all;
 	-moz-transition:.5s all;
@@ -911,7 +913,7 @@ li.w3pages .dropdown-menu > li > a:hover{
     position: absolute;
     top: 27%;
     left: 29%;
-    background: #337ab7;
+    background: blue;
     height: 1px;
     width: 10%;
 }
@@ -920,7 +922,7 @@ li.w3pages .dropdown-menu > li > a:hover{
     position: absolute;
     bottom: 79%;
     right: 43%;
-    background: #212121;
+    background: blue;
     height: 1px;
     width: 10%;
     transform: rotate(135deg);
@@ -1105,7 +1107,7 @@ ul.wmuSliderPagination {
     border-color: #717171;
 }
 .new-products .simpleCart_shelfItem p span {
-    color: #383838;
+    color: #ccc;
 }
 /*-- //new-products --*/
 /*-- banner-bottom1 --*/
@@ -3090,6 +3092,7 @@ td.invert-image a img {
 	}
 	.banner-bottom, .team, .checkout, .additional_info, .team-bottom, .single, .mail, .special-deals, .about, .faq, .typo, .new-products, .banner-bottom1, .top-brands, .mobiles, .w3l_related_products {
 		padding: 4em 0;
+    background: #000000bf;
 	}
 	.footer-copy-pos {
 		right: 5%;
@@ -3290,6 +3293,7 @@ td.invert-image a img {
 	}
 	.nav > li > a {
 		padding: 10px 24px;
+    color: #000000;
 	}
 	.nav-tabs > li > a {
 		font-size: 1em;
@@ -3329,6 +3333,7 @@ td.invert-image a img {
 	}
 	.special-deals h2, .new-products h3, .top-brands h3, .w3l_related_products h3, .team h3, .mail h3, h3.agileits-title{
 		font-size: 1.8em;
+    color: #000000;
 	}
 	.special-deals h2:before, .new-products h3:before, .top-brands h3:before, .w3l_related_products h3:before, .team h3:before, .mail h3:before, h3.agileits-title:before{
 		left: 18%;
@@ -3764,6 +3769,7 @@ td.invert-image a img {
 	}
 	.nav > li > a {
 		padding: 10px 21px;
+    color: #000000;
 	}
 	.modal-dialog {
 		margin: 3em auto 2em;
