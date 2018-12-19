@@ -1291,7 +1291,7 @@ ul.wmuSliderPagination {
 	background:#fff;
 }
 .w3_footer_grid h3{
-	color: #212121;
+	color: #000000;
     font-size: 1.5em;
     margin-bottom: 2em;
     padding-bottom: .5em;
@@ -1319,10 +1319,11 @@ ul.wmuSliderPagination {
     font-size: 14px;
 }
 .w3_footer_grid ul.address li i {
-    color:#414141;
-    border: 1px solid #414141;
+    color: #000000;
+    border: 1px solid #000000;
     padding: .5em;
     margin-right: 1em;
+    background: #333;
 }
 .w3_footer_grid ul.address li span {
     display: block;
@@ -1350,7 +1351,7 @@ ul.wmuSliderPagination {
 	margin: 0 !important;
 }
 .agileits_social_button ul li a{
-	background: url(../images/img-sp.png) no-repeat 1px -130px #414141;
+	background: url(../images/img-sp.png) no-repeat 1px -130px #000000;
     display: block;
     width: 35px;
     height: 35px;
@@ -1405,8 +1406,9 @@ ul.wmuSliderPagination {
 .footer-copy p{
 	margin:4em 0 0;
 	text-align:center;
-	color:#999;
+	color:#3c43a4;
 	line-height:1.8em;
+  background: black;
 }
 .footer-copy p a{
 	color:#3c43a4;
@@ -3410,6 +3412,7 @@ td.invert-image a img {
 	}
 	.footer {
 		padding: 3em 0;
+    background: #000000bf;
 	}
 	.banner.banner1, .banner.banner2, .banner.banner3{
 		min-height: 225px;
